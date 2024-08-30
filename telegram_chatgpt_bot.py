@@ -7,7 +7,7 @@ from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, Callb
 openai.api_key = os.getenv('sk-Zx3_7AbEY55l1SN10RcvQHI9_klfPwiKG_L9niEZ6OT3BlbkFJkGbr0-VkrptRKYlAx8kt1GINQ76bukwqqej3ubJlgA')  # Store your OpenAI key as an environment variable
 
 # Set up the Telegram Bot API token
-TELEGRAM_TOKEN = os.getenv('TELEGRAM_TOKEN')  # Store your Telegram token as an environment variable
+TELEGRAM_TOKEN = os.getenv('7542088511:AAFo6Am-NKVTD1sCQAWnmqI4VFHWa9o63R0')  # Store your Telegram token as an environment variable
 
 def start(update: Update, context: CallbackContext) -> None:
     """Send a welcome message when the /start command is issued."""
