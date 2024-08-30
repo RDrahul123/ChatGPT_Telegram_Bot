@@ -34,8 +34,8 @@ This is a simple Telegram bot powered by OpenAI's ChatGPT. The bot allows users 
 
 4. Set up your environment variables for the API keys:
    ```bash
-   export OPENAI_API_KEY='your-openai-api-key'
-   export TELEGRAM_TOKEN='your-telegram-bot-token'
+   export OPENAI_API_KEY='demo-openai-api-key'
+   export TELEGRAM_TOKEN='demo-telegram-bot-token'
    ```
 
 5. Run the bot:
