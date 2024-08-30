@@ -4,7 +4,7 @@ from telegram import Update
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext
 
 # Set up the OpenAI API key
-openai.api_key = os.getenv('OPENAI_API_KEY')  # Store your OpenAI key as an environment variable
+openai.api_key = os.getenv('sk-Zx3_7AbEY55l1SN10RcvQHI9_klfPwiKG_L9niEZ6OT3BlbkFJkGbr0-VkrptRKYlAx8kt1GINQ76bukwqqej3ubJlgA')  # Store your OpenAI key as an environment variable
 
 # Set up the Telegram Bot API token
 TELEGRAM_TOKEN = os.getenv('TELEGRAM_TOKEN')  # Store your Telegram token as an environment variable
